@@ -1,5 +1,5 @@
 {
-  "name": "@ignite-ui/docs",
+  "name": "@storybook-gabriel-ui/docs",
   "version": "1.0.0",
   "license": "MIT",
   "main": "index.js",
@@ -11,10 +11,10 @@
     "build": "storybook build"
   },
   "dependencies": {
-    "@ignite-ui/eslint-config": "*",
-    "@ignite-ui/react": "*",
-    "@ignite-ui/tokens": "*",
-    "@ignite-ui/ts-config": "*",
+    "@storybook-gabriel-ui/eslint-config": "*",
+    "@storybook-gabriel-ui/react": "*",
+    "@storybook-gabriel-ui/tokens": "*",
+    "@storybook-gabriel-ui/ts-config": "*",
     "phosphor-react": "^1.4.1",
     "polished": "^4.3.1",
     "react": "^19.0.0",

@@ -7,7 +7,7 @@
     "target": "es6",
     "baseUrl": "./",
     "paths": {
-      "@ignite-ui/react": ["../ignite-ui/src"]
+      "@storybook-gabriel-ui/react": ["../ignite-ui/src"]
     },
     "types": ["react", "react-dom"]
   }

@@ -1,6 +1,6 @@
 {
-  "name": "@ignite-ui/tokens",
-  "version": "1.0.0",
+  "name": "@storybook-gabriel-ui/tokens",
+  "version": "2.0.0",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
@@ -16,7 +16,7 @@
   "devDependencies": {
     "tsup": "^8.4.0",
     "typescript": "^5.8.2",
-    "@ignite-ui/ts-config": "*",
-    "@ignite-ui/eslint-config": "*"
+    "@storybook-gabriel-ui/ts-config": "*",
+    "@storybook-gabriel-ui/eslint-config": "*"
   }
 }
