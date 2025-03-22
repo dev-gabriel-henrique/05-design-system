@@ -1,0 +1,28 @@
+🩺 The doctor is checking the health of your Storybook..
+╭ Incompatible packages found ─────────────────────────────╮
+│                                                          │
+│   The following packages are incompatible with           │
+│   Storybook 8.6.6 as they depend on different major      │
+│   versions of Storybook packages:                        │
+│   - @storybook/addon-themes@8.6.7                        │
+│   Repo: https://github.com/storybookjs/storybook/tree/   │
+│   next/code/addons/themes                                │
+│   - storybook@8.6.8                                      │
+│   Repo: https://github.com/storybookjs/storybook/tree/   │
+│   next/code/lib/cli                                      │
+│                                                          │
+│                                                          │
+│   Please consider updating your packages or contacting   │
+│   the maintainers for compatibility details.             │
+│   For more on Storybook 8 compatibility, see the         │
+│   linked GitHub issue:                                   │
+│   https://github.com/storybookjs/storybook/issues/2603   │
+│   1                                                      │
+│                                                          │
+╰──────────────────────────────────────────────────────────╯
+
+You can always recheck the health of your project by running:
+npx storybook doctor
+
+Full logs are available in C:\Users\Kanra\Desktop\Estudos\Programacao\ReactJs\Aulas\05-design-system\packages\docs\doctor-storybook.log
+

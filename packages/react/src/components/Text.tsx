@@ -1,4 +1,4 @@
-import { ComponentProps, ElementType, ReactNode } from 'react'
+import { ComponentProps, ElementType } from 'react'
 import { styled } from '../styles'
 
 export const Text = styled('p', {
@@ -31,6 +31,7 @@ export const Text = styled('p', {
 })
 
 export interface TextProps extends ComponentProps<typeof Text> {
-  children?: ReactNode
   as?: ElementType
 }
+
+Text.displayName = 'Text'

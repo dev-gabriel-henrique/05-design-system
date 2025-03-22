@@ -1,5 +1,4 @@
-import { VariantProps } from '@stitches/react'
-import { ElementType } from 'react'
+import { ComponentProps, ElementType } from 'react'
 import { styled } from '../styles'
 
 export const Button = styled('button', {
@@ -89,6 +88,8 @@ export const Button = styled('button', {
   },
 })
 
-export interface ButtonProps extends VariantProps<typeof Button> {
+export interface ButtonProps extends ComponentProps<typeof Button> {
   as?: ElementType
 }
+
+Button.displayName = 'TextArea'
