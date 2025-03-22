@@ -6,9 +6,8 @@ export default {
   component: Avatar,
   args: {
     src: "https://github.com/dev-gabriel-henrique.png",
-    alt: "Diego Fernandes",
+    alt: "Gabriel Henrique",
   },
-
   argTypes: {
     src: {
       control: {

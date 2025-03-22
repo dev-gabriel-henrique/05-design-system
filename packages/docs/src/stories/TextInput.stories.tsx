@@ -6,7 +6,7 @@ import type { Meta, StoryObj } from '@storybook/react'
    component: TextInput,
    args: {},
    decorators: [
-     (Story) => {
+     (Story: () => any) => {
        return (
          <Box
            as="label"
@@ -35,5 +35,6 @@ import type { Meta, StoryObj } from '@storybook/react'
  export const WithPrefix: StoryObj<TextInputProps> = {
    args: {
      prefix: 'cal.com/',
+     placeholder: 'your-username'
    },
  }
