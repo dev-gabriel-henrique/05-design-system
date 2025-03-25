@@ -96,4 +96,4 @@ export interface ButtonProps extends ComponentProps<typeof Button> {
   as?: ElementType
 }
 
-Button.displayName = 'TextArea'
+Button.displayName = 'Button'

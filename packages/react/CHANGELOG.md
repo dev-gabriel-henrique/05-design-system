@@ -1,5 +1,11 @@
 # @storybook-gabriel-ui/react
 
+## 3.0.0
+
+### Major Changes
+
+- Addyng new components on Design system: Toast component and Tooltip Component
+
 ## 2.0.1
 
 ### Patch Changes
